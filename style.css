@@ -1,0 +1,142 @@
+*{
+    
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+   background-color: rgb(99, 92, 92)
+         
+}
+
+.main-fig{
+  width: 600px;
+  padding: 55px 320px 600px 320px;
+  position: relative;   
+}
+
+.identifier-image{
+  border-top-left-radius:20px ;
+  border-top-right-radius: 20px;
+  width: 600px;   
+}
+
+.figcaption{
+    background-color: rgb(70, 61, 61);
+    margin-top: 0;
+    position: absolute;
+    top: 792px;
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.color-w{
+    color: white;
+}
+
+.text-align-c{
+    text-align: center;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.main button{
+    padding: 10px;
+    
+}
+
+.buttton-email{
+    background-color:white;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: grey;
+    width: 150px;
+}
+
+.buttton-linkedin{
+    background-color:blue;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: grey;
+    width: 150px;
+}
+
+.identifier-text{
+    padding: 0 50px ;
+    margin-top: 50px;
+}
+
+.identifier-p{
+    margin-top: 0px;
+}
+
+.identifier-h{
+    margin-bottom: 0px;
+}
+
+.icons{
+    background-color: rgb(39, 33, 33);
+    height: 100px;
+    width: 600px;
+    position: absolute;
+    bottom: -100px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius: 20px;
+    
+}
+.social-icon-wrapper{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 20px;     
+}
+
+.social-icon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: baseline;
+}
+
+@media (min-width:0px) and (max-width:600px){
+    *{
+        font-size: 12px;
+    }
+
+    .main-fig{
+        padding: 30px 50px 600px 10px;
+    }
+
+    .identifier-image{
+        width: 300px;
+    }
+
+    .figcaption{
+        width: 300px;
+        top: 400px;
+    }
+
+    .buttton-email{
+        width: 100px;
+    }
+
+    .buttton-linkedin{
+        width: 100px;
+    }
+
+    .icons{
+        width: 300px;
+    }
+
+    .social-icon{
+        padding: 5px;
+    }
+
+    .social-icon-wrapper{
+        justify-content: flex-start;
+        gap: 40px;
+        padding-left: 50px;
+    }
+}
